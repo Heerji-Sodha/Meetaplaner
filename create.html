@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/create.css">
+   <link rel="stylesheet" href="css/navbar.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar -->
+        <div class="topnav" id="myTopnav">
+          <a href="navbar.html" class="active">Home</a>
+          <a href="myevents.html">My Events</a>
+             
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+              </div>
+
+<!-- Navbar End -->
+    <div class="container">
+        <h2>Create Event</h2>
+        <span id="text">Heading</span>
+            <div class="input-group flex-nowrap">
+            <input type="text" class="form-control" id="heading" placeholder="Heading" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+            <span id="text">Place</span>
+            <div class="input-group flex-nowrap">
+            <input type="text" class="form-control" id="place" placeholder="Place" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+            <span id="text">Price</span>
+            <div class="input-group flex-nowrap">
+            <input type="text" class="form-control" id="price" placeholder="Price" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+            <span id="text">Orgnizer</span>
+            <div class="input-group flex-nowrap">
+            <input type="text" class="form-control" id="organizer" placeholder="Orgnizer" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+            <br>
+            <div class="input-group flex-nowrap">
+            <input type="file" id="file" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+            <span id="text">Discription</span>
+            <div class="input-group flex-nowrap">
+                <textarea class="form-control" id="description"></textarea>
+            </div>
+            <br>
+            <button type="button" class="btn btn-primary btn-lg btn-block" onclick="btn1()">Create Event</button><br>
+    
+    </div>
+
+    <div id="htmldiv">
+
+    </div>
+</body>
+<script src="js/create.js"></script>
+</html>
